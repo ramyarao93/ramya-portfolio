@@ -1,4 +1,6 @@
 import React from 'react';
+import emailjs from "emailjs-com";
+
 import {
     Form,
     Input,
@@ -40,7 +42,21 @@ const ContactForm = () => {
     const [form] = Form.useForm();
 
     const onFinish = values => {
-        console.log('Received values of form: ', values);
+      emailjs
+        .send(
+          "service_vkg5ws8",
+          "template_ttdki9h",
+          values,
+          "user_vhRLddNP3oYUF3GjcWenm"
+        )
+        .then(
+          response => {
+            console.log("SUCCESS!", response.status, response.text);
+          },
+          err => {
+            console.log("FAILED...", err);
+          }
+        );
     };
 
     return (
@@ -110,7 +126,7 @@ const ContactForm = () => {
           <TextArea rows={6} placeholder="Message" />
         </Form.Item>
 
-        <Form.Item {...tailFormItemLayout}>
+        <Form.Item>
           <Button type="primary" htmlType="submit">
             Send a message
           </Button>

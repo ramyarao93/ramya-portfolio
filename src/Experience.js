@@ -21,7 +21,6 @@ const seniorDeveloperAtChainyardList = [
 const developerAtChainyardList = [
     "Lead frontend developer of a blockchain application across the supply chain space for maintaining relief efforts during natural disasters, winning the International Stevies Award for Community Impact",
     "Developed a web interface that used the concept of cryptocurrency across the blockchain platform which allow financial institutions to use a distributed ledger for settlement.",
-    "Created and integrated scalable UI services which provided fast and secure communication between the front end and the backend RESTful APIs",
     "Created and integrated scalable UI services which provided fast and secure communication between the front end and the backend RESTful APIs"
 ];
 
@@ -102,7 +101,7 @@ const Experience = () => {
                     <ExperienceCard
                         role="Software Engineer Intern"
                         location="eimageGlobal Inc, North Carolina, USA"
-                        responsibility="Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis."
+                        responsibility="Interned in the software development team of a healthcare tech company, which included server application designing and UI development of the application using robust technologies"
                         experienceList={internList}
                     />
                     <ExperienceCard

@@ -22,27 +22,30 @@ const Education = () => {
             <Title level={3}>Masters in Engineering Management</Title>
             <Title level={5}>Duke University</Title>
             <Text>
-              Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra
-              a, dapibus at dolor. In iaculis viverra neque, ac eleifend ante
-              lobortis id. In viverra ipsum stie id viverra.
+              The desire to gain experience on business strategies of technology driven projects,
+              churned an interest inside me to pursue this degree. I developed
+              the thirst to learn how to apply technology to managerial
+              programs. Earning this degree built my technical knowledge depth,
+              increased my business acumen and also expanded my network.
             </Text>
           </Timeline.Item>
           <Timeline.Item label={<Tag>May, 2015</Tag>}>
             <Title level={3}>Bachelors in Computer Science</Title>
             <Title level={5}>Manipal University</Title>
             <Text>
-              Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra
-              a, dapibus at dolor. In iaculis viverra neque, ac eleifend ante
-              lobortis id. In viverra ipsum stie id viverra.
+              Having got a taste of computer technology, programming and learning about product development basics in high school, I decided this would my path.
+              With this trait, I decided to pursue Computer Science and
+              Engineering and learnt concepts like product lifecycle,
+              development, maintenance and code.
             </Text>
           </Timeline.Item>
           <Timeline.Item label={<Tag>December, 2011</Tag>}>
-            <Title level={3}>Schooling</Title>
-            <Title level={5}>Mount Carmel</Title>
+            <Title level={3}>Higher Secondary, Sciences</Title>
+            <Title level={5}>Deeksha Center For Learning</Title>
             <Text>
-              Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra
-              a, dapibus at dolor. In iaculis viverra neque, ac eleifend ante
-              lobortis id. In viverra ipsum stie id viverra.
+              Since childhood, having a predilection towards solving problems,
+              Mathematics and Computer Science became my favourite subjects in
+              school. Wanting to pursue this, I took up Sciences in Higher Secondary with an passiom to set my foot into the future of technology
             </Text>
           </Timeline.Item>
         </Timeline>

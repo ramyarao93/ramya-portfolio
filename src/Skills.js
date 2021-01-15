@@ -65,23 +65,27 @@ const Skills = () => {
   const frontEndSkillList = [
     {
       skillName: "React",
-      skillPercentage: "85"
+      skillPercentage: "90"
+    },
+    {
+      skillName: "Javascript",
+      skillPercentage: "90"
     },
     {
       skillName: "Node JS",
+      skillPercentage: "80"
+    },
+    {
+      skillName: "Antd",
+      skillPercentage: "90"
+    },
+    {
+      skillName: "Carbon",
       skillPercentage: "70"
     },
     {
-      skillName: "Bootstrap",
-      skillPercentage: "90"
-    },
-    {
-      skillName: "HTML",
-      skillPercentage: "92"
-    },
-    {
-      skillName: "CSS",
-      skillPercentage: "90"
+      skillName: "HTML/CSS",
+      skillPercentage: "95"
     }
   ];
 
