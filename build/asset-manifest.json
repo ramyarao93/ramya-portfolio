@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/ramya-portfolio/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/ramya-portfolio/static/js/main.c873359e.chunk.js",
-    "main.js.map": "/ramya-portfolio/static/js/main.c873359e.chunk.js.map",
+    "main.js": "/ramya-portfolio/static/js/main.df025041.chunk.js",
+    "main.js.map": "/ramya-portfolio/static/js/main.df025041.chunk.js.map",
     "runtime-main.js": "/ramya-portfolio/static/js/runtime-main.51531a00.js",
     "runtime-main.js.map": "/ramya-portfolio/static/js/runtime-main.51531a00.js.map",
-    "static/css/2.847e01e0.chunk.css": "/ramya-portfolio/static/css/2.847e01e0.chunk.css",
-    "static/js/2.a967cec4.chunk.js": "/ramya-portfolio/static/js/2.a967cec4.chunk.js",
-    "static/js/2.a967cec4.chunk.js.map": "/ramya-portfolio/static/js/2.a967cec4.chunk.js.map",
+    "static/css/2.75793924.chunk.css": "/ramya-portfolio/static/css/2.75793924.chunk.css",
+    "static/js/2.1baea74b.chunk.js": "/ramya-portfolio/static/js/2.1baea74b.chunk.js",
+    "static/js/2.1baea74b.chunk.js.map": "/ramya-portfolio/static/js/2.1baea74b.chunk.js.map",
     "index.html": "/ramya-portfolio/index.html",
-    "precache-manifest.e58c1c110cd518e0661ba713d4556348.js": "/ramya-portfolio/precache-manifest.e58c1c110cd518e0661ba713d4556348.js",
+    "precache-manifest.dae818f3e57236eb4d09205eb75cc478.js": "/ramya-portfolio/precache-manifest.dae818f3e57236eb4d09205eb75cc478.js",
     "service-worker.js": "/ramya-portfolio/service-worker.js",
-    "static/css/2.847e01e0.chunk.css.map": "/ramya-portfolio/static/css/2.847e01e0.chunk.css.map",
+    "static/css/2.75793924.chunk.css.map": "/ramya-portfolio/static/css/2.75793924.chunk.css.map",
     "static/css/main.27fd15f6.chunk.css.map": "/ramya-portfolio/static/css/main.27fd15f6.chunk.css.map",
-    "static/js/2.a967cec4.chunk.js.LICENSE.txt": "/ramya-portfolio/static/js/2.a967cec4.chunk.js.LICENSE.txt",
+    "static/js/2.1baea74b.chunk.js.LICENSE.txt": "/ramya-portfolio/static/js/2.1baea74b.chunk.js.LICENSE.txt",
     "static/media/Portfolio-About.jpeg": "/ramya-portfolio/static/media/Portfolio-About.41370c7a.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.51531a00.js",
-    "static/css/2.847e01e0.chunk.css",
-    "static/js/2.a967cec4.chunk.js",
+    "static/css/2.75793924.chunk.css",
+    "static/js/2.1baea74b.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.c873359e.chunk.js"
+    "static/js/main.df025041.chunk.js"
   ]
 }
