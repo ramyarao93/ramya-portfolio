@@ -21,7 +21,7 @@ const TitleStyles = {
 const SocialMediaIcon = ({ icon, link }) => {
   return (
     <Col span={8}>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         {icon}
       </a>
     </Col>
