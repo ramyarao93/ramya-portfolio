@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ramya-portfolio/precache-manifest.bd2c5f53cebe89ec3915054ffefd442c.js"
+  "/ramya-portfolio/precache-manifest.e58c1c110cd518e0661ba713d4556348.js"
 );
 
 self.addEventListener('message', (event) => {
