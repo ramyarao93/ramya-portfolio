@@ -81,7 +81,7 @@ const Skills = () => {
     },
     {
       skillName: "Carbon",
-      skillPercentage: "70"
+      skillPercentage: "90"
     },
     {
       skillName: "HTML/CSS",
@@ -92,7 +92,7 @@ const Skills = () => {
   const devToolsSkillList = [
     {
       skillName: "GIT",
-      skillPercentage: "85"
+      skillPercentage: "95"
     },
     {
       skillName: "JIRA",
@@ -108,7 +108,7 @@ const Skills = () => {
     },
     {
       skillName: "MongoDB",
-      skillPercentage: "80"
+      skillPercentage: "90"
     },
     {
       skillName: "SQL",

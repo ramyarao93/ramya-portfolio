@@ -20,7 +20,7 @@ const TitleStyles = {
 
 const SocialMediaIcon = ({ icon, link }) => {
   return (
-    <Col span={3} offset={1}>
+    <Col span={8}>
       <a href={link} target="_blank">
         {icon}
       </a>
@@ -32,31 +32,34 @@ const Contact = () => {
   return (
     <Row
       style={{ background: "#c7d6d2", padding: "20px" }}
-      justify="center"
       id="contact"
     >
-      <Col span={8} push={2}>
+      <Col span={24}>
         <Row>
           <Col span={24}>
             <Title level={3} style={TitleStyles}>
               Let's talk! Look me up on
             </Title>
           </Col>
-          <SocialMediaIcon
-            icon={<LinkedinOutlined style={iconStyle} />}
-            link="https://www.linkedin.com/in/ramya-0412"
-          />
-          <SocialMediaIcon
-            icon={<FacebookOutlined style={iconStyle} />}
-            link="https://www.facebook.com/ramya.rao.90"
-          />
-          <SocialMediaIcon
-            icon={<InstagramOutlined style={iconStyle} />}
-            link="https://www.instagram.com/ramyaarao_"
-          />
+          <Col span={24} style={{ padding: "20px" }}>
+            <Row>
+              <SocialMediaIcon
+                icon={<LinkedinOutlined style={iconStyle} />}
+                link="https://www.linkedin.com/in/ramya-0412"
+              />
+              <SocialMediaIcon
+                icon={<FacebookOutlined style={iconStyle} />}
+                link="https://www.facebook.com/ramya.rao.90"
+              />
+              <SocialMediaIcon
+                icon={<InstagramOutlined style={iconStyle} />}
+                link="https://www.instagram.com/ramyaarao_"
+              />
+            </Row>
+          </Col>
         </Row>
       </Col>
-      <Col span={16} push={4}>
+      <Col span={24}>
         <ContactForm />
       </Col>
     </Row>

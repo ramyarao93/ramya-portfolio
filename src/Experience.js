@@ -32,9 +32,9 @@ const developerAtTinystepList = [
 ];
 
 const analystAtDeloitteList = [
-    "Coded and tested functionalities for a health insurance exchange project, thereby working on the development of client requirements",
-    "Owned and facilitated regression, database and user acceptance testing for 100k+ users",
-    "Developed and executed test scripts using several tools and ensured error and fatalities free code"
+  "Coded and tested functionalities for a health insurance exchange project, thereby working on the development of client requirements",
+  "Owned and facilitated regression, database and user acceptance testing for 100k+ users",
+  "Developed and executed test scripts using several tools and ensured error and fatalities free code"
 ];
 
 const internList = [
@@ -78,47 +78,47 @@ const ExperienceCard = ({ role, location, responsibility, experienceList }) => {
 
 const Experience = () => {
     return (
-        <div id="experience">
-            <Row>
-                <Col span={24}>
-                    <Title style={TitleStyles}>Experience</Title>
-                </Col>
-            </Row>
-            <Row style={{ background: "white" }}>
-                <Col span={24}>
-                    <ExperienceCard
-                        role="Senior Frontend Developer"
-                        location="Chainyard, North Carolina, USA"
-                        responsibility="Worked closely with blockchain concepts and technology. Responsible for building applications using these concepts to make sure we deliver modern, frictionless experiences using the latest front end tools."
-                        experienceList={seniorDeveloperAtChainyardList}
-                    />
-                    <ExperienceCard
-                        role="Frontend Developer"
-                        location="Chainyard, North Carolina, USA"
-                        responsibility=""
-                        experienceList={developerAtChainyardList}
-                    />
-                    <ExperienceCard
-                        role="Software Engineer Intern"
-                        location="eimageGlobal Inc, North Carolina, USA"
-                        responsibility="Interned in the software development team of a healthcare tech company, which included server application designing and UI development of the application using robust technologies"
-                        experienceList={internList}
-                    />
-                    <ExperienceCard
-                        role="Frontend Developer"
-                        location="Tinystep, Bangalore, India"
-                        responsibility="Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis."
-                        experienceList={developerAtTinystepList}
-                    />
-                    <ExperienceCard
-                        role="Business Technology Analyst"
-                        location="Deloitte, Bangalore, India"
-                        responsibility="Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis."
-                        experienceList={internList}
-                    />
-                </Col>
-            </Row>
-        </div>
+      <div id="experience">
+        <Row>
+          <Col span={24}>
+            <Title style={TitleStyles}>Experience</Title>
+          </Col>
+        </Row>
+        <Row style={{ background: "white", padding: "15px" }}>
+          <Col span={24}>
+            <ExperienceCard
+              role="Senior Frontend Developer"
+              location="Chainyard, North Carolina, USA"
+              responsibility="Worked closely with blockchain concepts and technology. Responsible for building applications using these concepts to make sure we deliver modern, frictionless experiences using the latest front end tools."
+              experienceList={seniorDeveloperAtChainyardList}
+            />
+            <ExperienceCard
+              role="Frontend Developer"
+              location="Chainyard, North Carolina, USA"
+              responsibility=""
+              experienceList={developerAtChainyardList}
+            />
+            <ExperienceCard
+              role="Software Engineer Intern"
+              location="eimageGlobal Inc, North Carolina, USA"
+              responsibility="Interned in the software development team of a healthcare tech company, which included server application designing and UI development of the application using robust technologies."
+              experienceList={internList}
+            />
+            <ExperienceCard
+              role="Frontend Developer"
+              location="Tinystep, Bangalore, India"
+              responsibility="Developed the entire frontend of the web application of a healthcare and parenting network. This application provides information on pregnancy, and creates a network of parents and doctors."
+              experienceList={developerAtTinystepList}
+            />
+            <ExperienceCard
+              role="Business Technology Analyst"
+              location="Deloitte, Bangalore, India"
+              responsibility="Worked in defining the requirements and their development for a health insurance exchange of an overseas client. I was majorly involved in the development of web app features and performing quality checks for bug free code."
+              experienceList={analystAtDeloitteList}
+            />
+          </Col>
+        </Row>
+      </div>
     );
 };
 
